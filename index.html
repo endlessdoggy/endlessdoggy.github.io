@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>doooooooooooooooooooooooooooooooooooooooooooooooooooooooooooog</title>
+    <style>
+      html,body {
+        height: 100%;
+      }
+      .wrapper{
+        display: grid;
+        place-items: center;
+        height: 100%;
+        margin-top: 34%;
+      }
+      .horse{
+        position: relative;
+        width: 350px;
+      }
+      pre {     
+        margin: -16px;
+        white-space: break-spaces;
+      }
+    </style>
+    </head>
+    <body>
+    <div class="wrapper">
+      <p>bhai its endless dog wtf man wat mqchinee.cf</p>
+      <div class="horse">
+        <pre>
+    ___
+ __/ / \
+|    |/\
+|_--\   \              /-
+     \   \-___________/ /
+      \                :
+      |                :
+      |       ___ \    )
+       \|  __/     \  )
+        | /         \  \
+        |l           ( l
+        |l            ll
+        |l            |l
+        </pre>
+        <pre id="leg">
+        |l            ll
+        |l            ll
+        |l            ll
+        |l            ll
+        |l            ll
+        |l            ll  
+        |l            ll
+        |l            ll
+        |l            ll  
+        |l            ll
+        |l            ll
+        |l            ll  
+        |l            ll
+        |l            ll
+        |l            ll  
+        </pre>
+      </div>
+    </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(window).scroll(function () {
+        // End of the document reached?
+        if ($(document).height() - $(this).height() == $(this).scrollTop()) {
+          $("#leg").clone().appendTo(".horse");
+        }
+      }); 
+    </script>
+    </body>
+</html>
+
